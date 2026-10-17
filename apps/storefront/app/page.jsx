@@ -1,1 +1,2 @@
-import Store from './store';export default function Page(){return <><p>OBJECTS FOR EVERYDAY WORK · RELEASE 1</p><h1>A considered workspace.</h1><p>Browse the live catalog, add a lamp and check out with synthetic payment.</p><Store/><a href="/admin">Operations</a></>}
+import Store from './store';
+export default function Page(){return <><p>OBJECTS FOR EVERYDAY WORK · RELEASE 1</p><h1>A considered workspace.</h1><p>Browse the live catalog, add a lamp and check out with synthetic payment.</p><Store/><a href="/admin">Operations</a></>}
