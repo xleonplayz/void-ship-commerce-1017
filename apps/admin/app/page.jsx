@@ -1,0 +1,1 @@
+export default function Page(){return <><h1>Private operations</h1><p>Reached internally through the storefront.</p></>}

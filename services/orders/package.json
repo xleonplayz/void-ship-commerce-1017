@@ -1,0 +1,9 @@
+{
+  "name": "services-orders",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

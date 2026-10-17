@@ -1,0 +1,9 @@
+{
+  "name": "void-ship-commerce-1017",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "services/orders",
+    "services/payment"
+  ]
+}

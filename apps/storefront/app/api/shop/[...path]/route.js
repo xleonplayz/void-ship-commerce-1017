@@ -1,0 +1,2 @@
+export const dynamic='force-dynamic';
+async function proxy(req,{params}){try{const r=await fetch((process.env.ORDERS_URL||'http://orders:8081')+'/'+params.path.join('/'),{method:req.method,headers:{'content-type':'application/json'},body:req.method==='POST'?await req.text():undefined,cache:'no-store'});return new Response(await r.text(),{status:r.status,headers:{'content-type':'application/json'}})}catch(e){return Response.json({error:'Orders unavailable: '+e.message},{status:502})}}export const GET=proxy;export const POST=proxy;
